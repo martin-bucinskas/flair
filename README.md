@@ -22,3 +22,9 @@ frame snapshot of the video and other metadata.
 ## Flair Storage
 
 Flair Storage is an elastic block storage used to store the media.
+
+## Architecture
+
+Here is the proposed overview of the architecture.
+
+<p><img src="images/Flair.png"/></p>
