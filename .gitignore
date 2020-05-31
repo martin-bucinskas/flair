@@ -1,2 +1,4 @@
 .idea/
-flair-storage/media
+flair-storage/
+*/__pycache__/
+.DS_Store
