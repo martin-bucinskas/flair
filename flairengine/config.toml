@@ -1,0 +1,12 @@
+[engine]
+    port=5000
+
+[ffmpeg]
+    ffmpeg_command='ffmpeg'
+    ffmpeg_args=' -ss {} -i {} -f {} -vcodec {} -acodec {} -strict experimental -preset ultrafast -movflags frag_keyframe+empty_moov+faststart pipe:1'
+
+    [ffmpeg.mimes]
+        '*'='video/mp4'
+        'mp4'='video/mp4'
+        'mp3'='audio/mp3'
+        'jpg'='image/jpg'
